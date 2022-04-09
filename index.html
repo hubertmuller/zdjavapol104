@@ -119,15 +119,37 @@
                     <input type="password" name="haslo" id="hasloid">
 
 
-                    <select multiple size="3">
-                        <option value="1" selected>Jeden</option>
-                        <option value="2" selected>Dwa</option>
-                        <option value="3" selected>Trzy</option>
+
+                    
+                    <input type="checkbox" name="opcje" value="kawa">
+                    <input type="checkbox" name="opcje" value="ciastko">
+
+                    <input type="radio" name="plec" value="k">
+                    <input type="radio" name="plec" value="m">
+
+
+
+
+
+                    <label for="dzieciid">
+                        Ilośc dzieci
+                    </label>
+                    <select name="dzieci" id="dzieciid">
+                        <option value="0" selected>Brak</option>
+                        <option value="1">Jeden</option>
+                        <option value="2">Dwa</option>
+                        <option value="3">Trzy</option>
                     </select>
 
-                    <textarea>
+
+                    <label for="uwagiid">
+                        Uwagi
+                    </label>
+                    <textarea name="uwagi" id="uwagiid">
 
                     </textarea>
+
+                    <input type="submit" value="Wyślij">
 
                     <!--
                     <input type="color">
