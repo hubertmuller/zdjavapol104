@@ -1,0 +1,25 @@
+input[type="text"] {
+    background-color: red;
+    font-size: 36px;
+}
+
+nav a {
+    background-color: blue;
+    font-size: 30px;
+}
+
+a + a {
+    background-color: yellow;
+}
+
+nav a + a {
+
+}
+
+* {
+
+}
+
+#zyciorys {
+    color: rgba(0, 255, 0, 0.5);
+}
