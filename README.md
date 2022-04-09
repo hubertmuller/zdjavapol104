@@ -1,2 +1,9 @@
 # zdjavapol104
-projekt htmlcssjs
+
+Opis projektu:
+
+projekt htmlcssjs. Podstawy.
+
+Uruchamianie:
+
+Uruchom przeglądarkę i przeciągnij do niej plik index.html
