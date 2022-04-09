@@ -106,27 +106,42 @@
                     <label for="imieid">
                         Imię
                     </label>
-                    <input type="text" name="imie" id="imieid">
+                    <input type="text" name="imie" id="imieid" accesskey="i" tabindex="3">
 
                     <label for="nazwiskoid">
                         Nazwisko
                     </label>
-                    <input type="text" name="nazwisko" id="nazwiskoid">
+                    <input type="text" name="nazwisko" id="nazwiskoid" accesskey="n"  tabindex="2">
 
                     <label for="hasloid">
                         Hasło
                     </label>  
-                    <input type="password" name="haslo" id="hasloid">
+                    <input type="password" name="haslo" id="hasloid" tabindex="1">
 
 
+                    <fieldset>
+                        <legend>Poczestunek</legend>
+                        <label for="kawaid">
+                            Kawa
+                        </label>  
+                        <input type="checkbox" name="opcje" value="kawa" id="kawaid">
+                        <label for="ciastkoid">
+                            Ciastko
+                        </label>  
+                        <input type="checkbox" name="opcje" value="ciastko" id="ciastkoid">
+                    </fieldset>
 
-                    
-                    <input type="checkbox" name="opcje" value="kawa">
-                    <input type="checkbox" name="opcje" value="ciastko">
-
-                    <input type="radio" name="plec" value="k">
-                    <input type="radio" name="plec" value="m">
-
+                    <fieldset>
+                        <legend>Płeć</legend>
+                        <label for="kid">
+                            Kobieta
+                        </label>  
+                        <input type="radio" name="plec" value="k" id="kid">
+                        <label for="mid">
+                            Meżczyzna
+                        </label>  
+                        <input type="radio" name="plec" value="m" id="mid">
+                    </fieldset>
 
 
 
