@@ -1,5 +1,23 @@
-input[type="text"] {
-    background-color: red;
+
+
+input[type="text"], input[type="password"], input[type="submit"], textarea, select {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid #aaa;
+    width: 100%;
+}
+
+[type="submit"] {
+    margin-top: 20px;
+}
+
+input:hover, textarea:hover, select:hover {
+    background-color: rgb(239, 255, 224);
+}
+
+[type="checkbox"], [type="radio"] {
+    width: 20px;
+    height: 20px;
 }
 
 nav a {
@@ -36,7 +54,7 @@ p, li, td, th, caption, a {
 }
 
 html {
-    font-size: 15px;
+    font-size: 20px;
 }
 
 /*#zyciorys {
@@ -66,3 +84,60 @@ header {
     padding-top: 10px;
     padding-right: 10px;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+tr {
+    background-color: #d7eed7;
+}
+
+tr:hover {
+    background-color: #9fd49f;
+}
+
+th {
+    background-color: #880000;
+    color: #fff;
+    font-weight: normal;
+    text-align: left;
+}
+
+th, td, caption {
+    padding: 10px;
+    border: 1px dotted black;
+}
+
+caption {
+    background-color: #aa0000;
+    color: white;
+}
+
+label {
+    display: block;
+}
+
+label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+fieldset label {
+    display: inline-block;
+    margin-top: 0;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+legend {
+    padding: 0;
+}
+
