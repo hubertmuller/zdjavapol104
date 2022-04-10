@@ -1,11 +1,9 @@
 input[type="text"] {
     background-color: red;
-    font-size: 36px;
 }
 
 nav a {
     background-color: blue;
-    font-size: 30px;
 }
 
 a + a {
@@ -17,9 +15,54 @@ nav a + a {
 }
 
 * {
-
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
 }
 
-#zyciorys {
-    color: rgba(0, 255, 0, 0.5);
+h1 {
+    font-size: 2rem;
+    color: #888;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #999;
+}
+
+p, li, td, th, caption, a {
+    font-size: 0.8rem;
+    color: #111;
+}
+
+html {
+    font-size: 15px;
+}
+
+/*#zyciorys {
+    color: #f84;
+}*/
+
+/*div[class="lewa"]*/
+div.lewa {
+    width: 50%;
+    display: inline-block;
+}
+
+div.menu {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+header {
+    height: 200px;
+    background-image: url("img/yerka.jpg");
+    background-repeat-x: no-repeat;
+    background-size: 100%;
+    background-repeat-y: no-repeat;
+    background-position-y: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
 }
