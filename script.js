@@ -35,7 +35,11 @@ window.addEventListener('DOMContentLoaded', function () {
 function wyswietlBlad(element, komunikat) {
     const forma = document.forma;
     const nowyElement = document.createElement("div");
+    /* programowe ustawianie styli - to moze byc dluga lista - niewygodne
     nowyElement.style.color = '#f00';
+    nowyElement.style.fontSize = '0.5em';
+    */
+    nowyElement.setAttribute('class', 'blad');
     const zawartosc = document.createTextNode(komunikat);
     nowyElement.appendChild(zawartosc);
     forma.insertBefore( nowyElement , element);

@@ -141,3 +141,8 @@ legend {
     padding: 0;
 }
 
+.blad {
+    font-size: 0.7rem;
+    color: blue;
+    margin: 5px;
+}
