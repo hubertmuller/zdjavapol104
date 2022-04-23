@@ -13,8 +13,10 @@ window.addEventListener('DOMContentLoaded', function () {
 
     document.forma.addEventListener('submit', function (target) {
 
-
-        document.querySelectorAll("form div");
+        var bledy = document.querySelectorAll("form div");
+        bledy.forEach(function(el) {
+            document.forma.removeChild(el);
+        });
 
         var imie = document.forma.imie;
         if (!imie.value.match(/^([A-z]{3,})$/g)) {
@@ -33,6 +35,7 @@ window.addEventListener('DOMContentLoaded', function () {
 function wyswietlBlad(element, komunikat) {
     const forma = document.forma;
     const nowyElement = document.createElement("div");
+    nowyElement.style.color = '#f00';
     const zawartosc = document.createTextNode(komunikat);
     nowyElement.appendChild(zawartosc);
     forma.insertBefore( nowyElement , element);
